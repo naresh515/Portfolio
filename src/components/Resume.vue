@@ -2,7 +2,7 @@
 
 <template>
     <div class="rounded-2xl bg-[#111111]">
-        <div class="pt-12 md:py-12 px-6 sm:px-5 md:px-10 lg:px-14">
+        <div class="pt-12 md:py-12 px-6 sm:px-5 md:px-10 lg:px-14 pb-5">
             <div class="heading">
                 <h1 class="text-white text-[20px] lg:text-[40px] font-bold leading-[60px] relative">Resume</h1>
             </div>
