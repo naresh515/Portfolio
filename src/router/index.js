@@ -1,10 +1,8 @@
-// router/index.js
-
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/Home.vue';
+import Home from '../components/home.vue';
 import Resume from '../components/Resume.vue';
-import Works from '../components/Works.vue';
-import Contact from '../components/Contact.vue';
+import Works from '../components/works.vue';
+import Contact from '../components/contact.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
