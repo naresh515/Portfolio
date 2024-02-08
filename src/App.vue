@@ -3,7 +3,7 @@
 <template>
   <div class="lg:mx-[40px]">
     <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-14">
-      <div class="w-full mx-auto text-center dark:bg-[#111111] p-6 rounded-[20px] h-[690px]">
+      <div class="w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]">
         <div class="flex flex-col items-center">
           <img src="./assets/Naresh.jpg">
           <h2 class="mt-6 mb-2 text-3xl font-semibold text-white">Naresh Tak</h2>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="main_container">
-        <div class="lg:w-[526px] lg:h-[144px] p-[15px] lg:block lg:p-[30px] ml-auto mb-10 rounded-[16px] bg-[#111111]">
+        <div class="lg:w-[526px] lg:h-[144px] p-[15px] lg:block lg:p-[30px] ml-auto mb-10 lg:rounded-[16px] bg-[#111111]">
           <div class="tabs flex">
             <RouterLink to="/" class="w-full mx-2.5">
               <button
