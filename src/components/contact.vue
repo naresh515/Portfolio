@@ -29,22 +29,19 @@
         <div>
             <form action="https://formspree.io/f/mayrevpp" method="post">
                 <div class="flex flex-col mb-[20px]">
-                    <label for="name"
-                        class="peer-focus:font-medium text-sm text-gray-500 dark:text-color-910 peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Name:</label>
-                    <input type="text" id="name" name="name" required
-                        class="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer">
+                    <label for="name" class="text-sm text-gray-500">Name:</label>
+                    <input type="text" id="name" name="name" required autocomplete="off"
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="flex flex-col mb-[20px]">
-                    <label for="email"
-                        class="peer-focus:font-medium text-sm text-gray-500 dark:text-color-910 peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Email:</label>
-                    <input type="email" id="email" name="email" required
-                        class="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer">
+                    <label for="email" class="text-sm text-gray-500">Email:</label>
+                    <input type="email" id="email" name="email" required autocomplete="off"
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="flex flex-col">
-                    <label for="message"
-                        class="peer-focus:font-medium text-sm text-gray-500 dark:text-color-910 peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Message:</label>
+                    <label for="message" class="text-sm text-gray-500">Message:</label>
                     <input type="text" id="message" name="message" required
-                        class="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer">
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="mt-[20px]">
                     <input type="submit" value="Submit"
