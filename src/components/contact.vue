@@ -82,10 +82,3 @@
     background-image: linear-gradient(to right, var(--color1, #fa5252), var(--color2, #dd2476));
 }
 </style>
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/naresh515/Naresh.git
-git push -u origin main
