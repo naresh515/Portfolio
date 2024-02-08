@@ -1,8 +1,60 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+
+const mobileMenuActive = ref(false);
+
+const toggleMobileMenu = () => {
+  mobileMenuActive.value = !mobileMenuActive.value;
+};
+</script>
 
 <template>
   <div class="lg:mx-[40px]">
-    <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-14">
+    <nav class="bg-black m-0 p-4 flex justify-end lg:hidden">
+      <div class="lg:hidden w-[30px] h-[30px] block" @click="toggleMobileMenu">
+        <div class="hamburger-icon bg-[#EF4060] w-[40px] h-[40px] rounded-full flex flex-col items-center justify-center"
+          :class="{ 'active': mobileMenuActive }" id="mobile-menu">
+          <span class="line1 block w-[20px] h-[2px] bg-[#fff] mb-[6px]"></span>
+          <span class="line2 block w-[20px] h-[2px] bg-[#fff] mb-[6px]"></span>
+          <span class="line3 block w-[20px] h-[2px] bg-[#fff] mb-[6px]"></span>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-[#212425] absolute left-0 right-0 hidden lg:!hidden" :class="{ '!block': mobileMenuActive }">
+      <div class="mx-[10px]">
+        <RouterLink to="/" class="w-full">
+          <button
+            class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium "><a
+              class="text-white flex items-center text-[15px] gap-[10px] px-3"><i class="fa-solid fa-house"></i>
+              Home</a></button>
+        </RouterLink>
+      </div>
+      <div class="mx-[10px]">
+        <RouterLink to="resume" class="w-full">
+          <button
+            class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
+              class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
+                class="fa-regular fa-file-lines"></i>Resume</a></button>
+        </RouterLink>
+      </div>
+      <div class="mx-[10px]">
+        <RouterLink to="project" class="w-full">
+          <button
+            class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
+              class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
+                class="fa-solid fa-cube"></i>Project</a></button>
+        </RouterLink>
+      </div>
+      <div class="mx-[10px]">
+        <RouterLink to="contact" class="w-full">
+          <button
+            class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
+              class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
+                class="fa-regular fa-address-book"></i>Contact</a></button>
+        </RouterLink>
+      </div>
+    </div>
+    <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-4 lg:gap-14">
       <div class="w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]">
         <div class="flex flex-col items-center">
           <img src="./assets/Naresh.jpg">
@@ -59,7 +111,8 @@
         </div>
       </div>
       <div class="main_container">
-        <div class="lg:w-[526px] lg:h-[144px] p-[15px] lg:block lg:p-[30px] ml-auto mb-10 lg:rounded-[16px] bg-[#111111]">
+        <div
+          class="lg:w-[526px] hidden lg:h-[144px] p-[15px] lg:block lg:p-[30px] ml-auto mb-10 lg:rounded-[16px] bg-[#111111]">
           <div class="tabs flex">
             <RouterLink to="/" class="w-full mx-2.5">
               <button
@@ -113,4 +166,16 @@ body {
 .router-link-active button {
   background-image: linear-gradient(to right, var(--color1, #fa5252), var(--color2, #dd2476));
 }
-</style>
+
+.active .line1 {
+  transform: translateY(10px) rotate(50deg);
+}
+
+.active .line2 {
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.active .line3 {
+  transform: translateY(-8px) rotate(-45deg);
+}</style>
