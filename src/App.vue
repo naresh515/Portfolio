@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="mx-[40px]">
-    <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] my-[50px] gap-14">
+  <div class="lg:mx-[40px]">
+    <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-14">
       <div class="w-full mx-auto text-center dark:bg-[#111111] p-6 rounded-[20px] h-[690px]">
         <div class="flex flex-col items-center">
           <img src="./assets/Naresh.jpg">
@@ -23,8 +23,8 @@
               href="https://www.linkedin.com/in/naresh-tak-90b9a9209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               class="text-[#0072b1]"><i class="fa-brands fa-linkedin"></i></a></button>
         </div>
-        <div class="contact_info bg-[#1D1D1D] p-7 rounded-2xl my-7">
-          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-3.5">
+        <div class="contact_info bg-[#1D1D1D] p-2 lg:p-7 rounded-2xl my-7">
+          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-2 lg:gap-3.5">
             <button class="w-[2.5rem] h-[2.5rem] rounded-lg bg-[#000000]"><i
                 class="fa-solid fa-mobile-screen-button text-[#E93B81]"></i></button>
             <div class="flex flex-col items-baseline">
@@ -32,7 +32,7 @@
               <span><a href="tel:8279214452" class="text-white hover:text-[#FA5252]">8279214452</a></span>
             </div>
           </div>
-          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-3.5">
+          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-2 lg:gap-3.5">
             <button class="w-[2.5rem] h-[2.5rem] rounded-lg bg-[#000000]"><i
                 class="fa-solid fa-location-dot text-[#6AB5B8]"></i></button>
             <div class="flex flex-col items-baseline">
@@ -40,7 +40,7 @@
               <span><a href="tel:8279214452" class="text-white">Bikaner, Rajasthan, India</a></span>
             </div>
           </div>
-          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-3.5">
+          <div class="flex py-2.5 border-b border-[#3D3A3A] gap-2 lg:gap-3.5">
             <button class="w-[2.5rem] h-[2.5rem] rounded-lg bg-[#000000]"><i
                 class="fa-solid fa-envelope text-[#FD7590]"></i></button>
             <div class="flex flex-col items-baseline">
@@ -48,7 +48,7 @@
               <span><a href="tel:8279214452" class="text-white hover:text-[#FA5252]">taknaresh515@gmail.com</a></span>
             </div>
           </div>
-          <div class="flex py-2.5 gap-3.5">
+          <div class="flex py-2.5 gap-2 lg:gap-3.5">
             <button class="w-[2.5rem] h-[2.5rem] rounded-lg bg-[#000000]"><i
                 class="fa-solid fa-calendar-days text-[#C17CEB]"></i></button>
             <div class="flex flex-col items-baseline">
