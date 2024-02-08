@@ -2,9 +2,9 @@
 
 <template>
     <div class="rounded-2xl bg-[#111111]">
-        <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+        <div class="pt-12 md:py-12 px-6 sm:px-5 md:px-10 lg:px-14">
             <div class="heading">
-                <h1 class="text-white text-[40px] font-bold leading-[60px] relative">Resume</h1>
+                <h1 class="text-white text-[20px] lg:text-[40px] font-bold leading-[60px] relative">Resume</h1>
             </div>
             <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mt-[30px] ">
                 <div class="flex flex-col gap-4 bg-transparent">
@@ -191,4 +191,11 @@
     transform: translateY(-50%);
     border-radius: 0.375rem;
     background-image: linear-gradient(to right, var(--color1, #fa5252), var(--color2, #dd2476));
-}</style>
+}
+@media screen and (max-width: 800px) {
+    .heading h1:after {
+        left: 7rem;
+        width: 10rem;
+    }
+}
+</style>
