@@ -183,7 +183,7 @@
 <style scoped>
 .heading h1:after {
     content: "";
-    left: 13rem;
+    left: 11rem;
     width: 12rem;
     position: absolute;
     top: 50%;

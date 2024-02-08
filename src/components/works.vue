@@ -5,7 +5,7 @@
         <div class="heading">
             <h1 class="text-white text-[40px] font-bold leading-[60px] relative">Projects</h1>
         </div>
-        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mt-[30px]">
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold mb-2">
@@ -54,7 +54,7 @@
 <style scoped>
 .heading h1:after {
     content: "";
-    left: 13rem;
+    left: 11rem;
     width: 12rem;
     position: absolute;
     top: 50%;
