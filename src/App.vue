@@ -1,11 +1,32 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
+import { useRoute } from 'vue-router';
 
 const mobileMenuActive = ref(false);
+const route = useRoute();
 
 const toggleMobileMenu = () => {
   mobileMenuActive.value = !mobileMenuActive.value;
 };
+
+// const asideContent = () => {
+//   mobileMenuActive.value = !mobileMenuActive.value;
+// };
+
+const handleLinkClick = () => {
+  toggleMobileMenu();
+};
+
+watch(
+  () => route.path,
+  (newPath) => {
+    if (newPath === '/') {
+      mobileMenuActive.value = true;
+    } else {
+      mobileMenuActive.value = false;
+    }
+  }
+);
 </script>
 
 <template>
@@ -20,9 +41,9 @@ const toggleMobileMenu = () => {
         </div>
       </div>
     </nav>
-    <div class="bg-[#212425] absolute left-0 right-0 hidden lg:!hidden" :class="{ '!block': mobileMenuActive }">
+    <div class="bg-[#212425] absolute left-0 z-10 right-0 hidden lg:!hidden" :class="{ '!block': mobileMenuActive }">
       <div class="mx-[10px]">
-        <RouterLink to="/" class="w-full">
+        <RouterLink to="/" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium "><a
               class="text-white flex items-center text-[15px] gap-[10px] px-3"><i class="fa-solid fa-house"></i>
@@ -30,7 +51,7 @@ const toggleMobileMenu = () => {
         </RouterLink>
       </div>
       <div class="mx-[10px]">
-        <RouterLink to="resume" class="w-full">
+        <RouterLink to="resume" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
               class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
@@ -38,7 +59,7 @@ const toggleMobileMenu = () => {
         </RouterLink>
       </div>
       <div class="mx-[10px]">
-        <RouterLink to="project" class="w-full">
+        <RouterLink to="project" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
               class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
@@ -46,7 +67,7 @@ const toggleMobileMenu = () => {
         </RouterLink>
       </div>
       <div class="mx-[10px]">
-        <RouterLink to="contact" class="w-full">
+        <RouterLink to="contact" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
               class="text-white flex items-center text-[15px] gap-[10px] px-3"><i
@@ -55,7 +76,8 @@ const toggleMobileMenu = () => {
       </div>
     </div>
     <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-4 lg:gap-14">
-      <div class="w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]">
+      <div class="top_container w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]"
+        :class="{ 'hidden': asideContent }">
         <div class="flex flex-col items-center">
           <img src="./assets/Naresh.jpg">
           <h2 class="mt-6 mb-2 text-3xl font-semibold text-white">Naresh Tak</h2>
@@ -178,4 +200,5 @@ body {
 
 .active .line3 {
   transform: translateY(-8px) rotate(-45deg);
-}</style>
+}
+</style>
