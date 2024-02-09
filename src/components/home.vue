@@ -23,10 +23,9 @@
                         class="!w-10 !h-10 object-contain block !max-w-[40px]">
                 </div>
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold">Ui/Ux Design</h3>
-                    <p class=" leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <h3 class="text-white text-xl font-semibold mb-[5px]">Ui/Ux Design</h3>
+                    <p class=" leading-8 text-[#A6A6A6]">Create visually stunning and user-friendly interfaces that enhance
+                        user experience. Our design solutions focus on modern aesthetics and functionality.</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
@@ -35,10 +34,10 @@
                         class="!w-10 !h-10 object-contain block !max-w-[40px]">
                 </div>
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold">App Development</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <h3 class="text-white text-xl font-semibold mb-[5px]">App Development</h3>
+                    <p class="leading-8 text-[#A6A6A6]">Craft cutting-edge mobile applications with our expert app
+                        development services. We transform ideas into functional and innovative applications tailored to
+                        your needs.</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
@@ -47,10 +46,10 @@
                         class="!w-10 !h-10 object-contain block !max-w-[40px]">
                 </div>
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold">Managment</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <h3 class="text-white text-xl font-semibold mb-[5px]">Managment</h3>
+                    <p class="leading-8 text-[#A6A6A6]">Efficiently organize and oversee your projects with our management
+                        solutions. We provide tools and strategies to streamline processes and ensure successful project
+                        delivery.</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
@@ -59,10 +58,10 @@
                         class="!w-10 !h-10 object-contain block !max-w-[40px]">
                 </div>
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold">Web Development</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <h3 class="text-white text-xl font-semibold mb-[5px]">Web Development</h3>
+                    <p class="leading-8 text-[#A6A6A6]">Build powerful and responsive websites with our web development
+                        expertise. We focus on creating scalable and feature-rich web solutions tailored to meet your
+                        business objectives.</p>
                 </div>
             </div>
         </div>
@@ -87,5 +86,4 @@
         left: 7rem;
         width: 10rem;
     }
-}
-</style>
+}</style>

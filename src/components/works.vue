@@ -8,46 +8,38 @@
         <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mt-[30px]">
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold mb-2">
+                   <h3 clas s="text-white text-xl font-semibold mb-3">
                         <a href="https://naresh515.github.io/Delici/" target="_blank"> <img src="../assets/logo.png"></a>
                     </h3>
-                    <p class=" leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <p class=" leading-8 text-[#A6A6A6]">A responsive template for food domain, a minimal single page website best fit for an informative site, it showcases menus and other information all in a single page. Click on the img for experience the project live</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold mb-2">
+                    <h3 class="text-white text-xl font-semibold mb-3">
                         <a href="https://naresh515.github.io/interior/" target="_blank"><img
                                 src="../assets/Interior-Design-Webflow-Website.png"></a>
                     </h3>
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <p class="leading-8 text-[#A6A6A6]">A responsive website for Modern Kitchen architecture. It contains several pages like home services. It showcases the information in the particular based pages. Click on the img for experience the project live</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div class="des">
-                    <h3 class="text-white text-xl font-semibold mb-2">
+                    <h3 class="text-white text-xl font-semibold mb-3">
                         <a href="https://naresh515.github.io/Dexon-templete/" target="_blank"><img
                                 src="../assets/logo2.png"></a>
                     </h3>
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <p class="leading-8 text-[#A6A6A6]">A responsive website with using Sass and bootstrap. Click on the img for experience the project live</p>
                 </div>
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div class="des last">
-                    <h3 class="text-white text-xl font-semibold mb-2">
+                    <h3 class="text-white text-xl font-semibold mb-3">
                         <a href="https://naresh515.github.io/Swiss-air-base/" target="_blank"><img
                                 src="../assets/logo (2).png"></a>
                     </h3>
 
-                    <p class="leading-8 text-[#A6A6A6]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                        euismod
-                        volutpat.</p>
+                    <p class="leading-8 text-[#A6A6A6]">A responsive website for Zerman Air Craft protect us for emergencies of all kinds. Click on the img for experience the project live</p>
                 </div>
             </div>
         </div>
