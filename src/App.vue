@@ -1,32 +1,41 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, onMounted, onBeforeUnmount, watch, computed } from 'vue';
 import { useRoute } from 'vue-router';
 
 const mobileMenuActive = ref(false);
 const route = useRoute();
 
+const isMobileDevice = ref(window.innerWidth <= 800);
+const mobileClass = ref(isMobileDevice.value ? 'mobile' : 'desktop');
+
 const toggleMobileMenu = () => {
   mobileMenuActive.value = !mobileMenuActive.value;
 };
 
-// const asideContent = () => {
-//   mobileMenuActive.value = !mobileMenuActive.value;
-// };
-
 const handleLinkClick = () => {
-  toggleMobileMenu();
+  mobileMenuActive.value = false;
 };
 
-watch(
-  () => route.path,
-  (newPath) => {
-    if (newPath === '/') {
-      mobileMenuActive.value = true;
-    } else {
-      mobileMenuActive.value = false;
-    }
-  }
-);
+const updateMobileStatus = () => {
+  isMobileDevice.value = window.innerWidth <= 800;
+  mobileClass.value = isMobileDevice.value ? 'mobile' : 'desktop';
+};
+
+onMounted(() => {
+  window.addEventListener('resize', updateMobileStatus);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateMobileStatus);
+});
+
+watch(() => window.innerWidth, () => {
+  updateMobileStatus();
+});
+
+const showTopContainer = computed(() => {
+  return isMobileDevice.value ? (route.path === '/') : true;
+});
 </script>
 
 <template>
@@ -42,7 +51,7 @@ watch(
       </div>
     </nav>
     <div class="bg-[#212425] absolute left-0 z-10 right-0 hidden lg:!hidden" :class="{ '!block': mobileMenuActive }">
-      <div class="mx-[10px]">
+      <div class="mx-[10px] my-3">
         <RouterLink to="/" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium "><a
@@ -50,7 +59,7 @@ watch(
               Home</a></button>
         </RouterLink>
       </div>
-      <div class="mx-[10px]">
+      <div class="mx-[10px] my-3">
         <RouterLink to="resume" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
@@ -58,7 +67,7 @@ watch(
                 class="fa-regular fa-file-lines"></i>Resume</a></button>
         </RouterLink>
       </div>
-      <div class="mx-[10px]">
+      <div class="mx-[10px] my-3">
         <RouterLink to="project" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
@@ -66,7 +75,7 @@ watch(
                 class="fa-solid fa-cube"></i>Project</a></button>
         </RouterLink>
       </div>
-      <div class="mx-[10px]">
+      <div class="mx-[10px] my-3">
         <RouterLink to="contact" class="w-full" @click="handleLinkClick">
           <button
             class="h-10 rounded-[10px] hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] bg-[#212425] w-full cursor-pointer font-medium"><a
@@ -76,8 +85,8 @@ watch(
       </div>
     </div>
     <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-4 lg:gap-14">
-      <div class="top_container w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]"
-        :class="{ 'hidden': asideContent }">
+      <div :class="['top_container', mobileClass]" v-if="showTopContainer"
+        class="top_container w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[690px]">
         <div class="flex flex-col items-center">
           <img src="./assets/Naresh.jpg">
           <h2 class="mt-6 mb-2 text-3xl font-semibold text-white">Naresh Tak</h2>
