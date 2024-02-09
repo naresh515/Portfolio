@@ -31,17 +31,17 @@
                 <div class="flex flex-col mb-[20px]">
                     <label for="name" class="text-sm text-gray-500">Name:</label>
                     <input type="text" id="name" name="name" required autocomplete="off"
-                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="flex flex-col mb-[20px]">
                     <label for="email" class="text-sm text-gray-500">Email:</label>
                     <input type="email" id="email" name="email" required autocomplete="off"
-                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="flex flex-col">
                     <label for="message" class="text-sm text-gray-500">Message:</label>
                     <input type="text" id="message" name="message" required autocomplete="off"
-                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none dark:text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
+                        class="block py-2.5 px-0 w-full text-sm !bg-transparent border-0 border-b-[2px] appearance-none text-white border-[#333333] focus:border-[#FF6464] focus:outline-none">
                 </div>
                 <div class="mt-[20px]">
                     <input type="submit" value="Submit"

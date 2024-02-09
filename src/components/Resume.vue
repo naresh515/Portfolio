@@ -56,14 +56,14 @@
                 </div>
             </div>
         </div>
-        <div class="rounded-b-2xl bg-color-810 dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20">
-            <h4 class="text-[1.625rem] dark:text-white font-medium mb-6">Working Skills</h4>
+        <div class="rounded-b-2xl bg-color-810 bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20">
+            <h4 class="text-[1.625rem] text-white font-medium mb-6">Working Skills</h4>
             <div class="grid grid-cols-2 gap-8">
                 <div class="grid-cols-6">
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">HTML</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">100%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">HTML</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">100%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -76,8 +76,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">CSS</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">100%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">CSS</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">100%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -90,8 +90,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Tailwind</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">90%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Tailwind</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">90%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -104,8 +104,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">BootStrap</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">70%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">BootStrap</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">70%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -120,8 +120,8 @@
                 <div class="grid-cols-6">
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">JavaScript</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">60%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">JavaScript</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">60%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -134,8 +134,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Jquery</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">70%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Jquery</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">70%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -148,8 +148,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Vue</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">60%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Vue</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">60%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -162,8 +162,8 @@
                     </div>
                     <div class="mb-7">
                         <div class="flex justify-between py-1">
-                            <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">SASS / Less</span>
-                            <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">50%</span>
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">SASS / Less</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">50%</span>
                         </div>
                         <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                             <path class="rc-progress-line-trail" d="M 0.5,0.5

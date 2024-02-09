@@ -85,8 +85,8 @@ const showTopContainer = computed(() => {
       </div>
     </div>
     <div class="sub_container flex flex-col lg:grid grid-cols-[400px,1fr] lg:my-[50px] gap-4 lg:gap-14">
-      <div :class="['top_container', mobileClass]" v-if="showTopContainer"
-        class="top_container relative lg:mt-[190px] mt-[230px] w-full mx-auto text-center dark:bg-[#111111] p-6 lg:rounded-[20px] h-[500px] lg:h-[550px]">
+      <div :class="[mobileClass]" v-if="showTopContainer"
+        class="top_container relative lg:mt-[190px] mt-[230px] w-full mx-auto text-center bg-[#111111] p-6 lg:rounded-[20px] h-[500px] lg:h-[550px]">
         <div class="flex flex-col items-center">
           <img src="./assets/1707458134767.jpg" class="h-[240px] w-[240px] absolute rounded-[20px] top-0 object-cover mt-[-200px]">
           <h2 class="mt-6 mb-2 text-3xl font-semibold text-white">Naresh Tak</h2>
