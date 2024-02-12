@@ -128,7 +128,7 @@ const showTopContainer = computed(() => {
                 class="fa-solid fa-envelope text-[#FD7590]"></i></button>
             <div class="flex flex-col items-baseline">
               <span class="text-xs text-white">Email</span>
-              <span><a href="tel:8279214452" class="text-white hover:text-[#FA5252]">taknaresh515@gmail.com</a></span>
+              <span><a href="mailto:taknaresh515@gmail.com" class="text-white hover:text-[#FA5252]">taknaresh515@gmail.com</a></span>
             </div>
           </div>
           <div class="flex py-2.5 gap-2 lg:gap-3.5">
