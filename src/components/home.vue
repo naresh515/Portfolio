@@ -35,7 +35,7 @@
                 </div>
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold mb-[5px]">App Development</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Craft cutting-edge mobile applications with our expert app
+                    <p class="leading-8 text-[#A6A6A6]">Craft cutting-edge mobile applications with expert app
                         development services. I transform ideas into functional and innovative applications tailored to
                         your needs.</p>
                 </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold mb-[5px]">Managment</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Efficiently organize and oversee your projects with our management
+                    <p class="leading-8 text-[#A6A6A6]">Efficiently organize and oversee your projects with management
                         solutions. I provide tools and strategies to streamline processes and ensure successful project
                         delivery.</p>
                 </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold mb-[5px]">Web Development</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Build powerful and responsive websites with our web development
+                    <p class="leading-8 text-[#A6A6A6]">Build powerful and responsive websites with web development
                         expertise. I focus on creating scalable and feature-rich web solutions tailored to meet your
                         business objectives.</p>
                 </div>
