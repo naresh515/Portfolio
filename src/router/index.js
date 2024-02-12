@@ -5,6 +5,8 @@ import Works from "../components/works.vue";
 import Contact from "../components/contact.vue";
 
 const router = createRouter({
+  mode: 'history',
+  base: '/',
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
@@ -26,8 +28,7 @@ const router = createRouter({
       path: "/contact",
       name: "contact",
       component: Contact,
-    },
-    { path: "/:catchAll(.*)", redirect: "/" },
+    }
   ],
 });
 
