@@ -12,8 +12,8 @@
                 </div>
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold mb-2">Phone :</h3>
-                    <p class=" leading-8 text-[#A6A6A6]">+91 8279214452</p>
-                    <p class=" leading-8 text-[#A6A6A6]">+91 9521081244</p>
+                    <p class=" leading-8 text-[#A6A6A6]"><a href="tel:8279214452">+91 8279214452</a></p>
+                    <p class=" leading-8 text-[#A6A6A6]"><a href="tel:9521081244"> +91 9521081244 </a></p>
                 </div>
             </div>
             <div class="flex gap-4 rounded-[0.75rem] p-[1.5rem] bg-[#212425]">
@@ -22,7 +22,8 @@
                 </div>
                 <div class="des">
                     <h3 class="text-white text-xl font-semibold">Email :</h3>
-                    <p class="leading-8 text-[#A6A6A6]">taknaresh515@gmail.com</p>
+                    <p class="leading-8 text-[#A6A6A6]"><a href="mailto:taknaresh515@gmail.com">taknaresh515@gmail.com</a>
+                    </p>
                 </div>
             </div>
         </div>
