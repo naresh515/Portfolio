@@ -178,7 +178,7 @@
             </div>
         </div>
         <div class="py-[10px] text-sm rounded-[0.75rem] bg-[#212425]">
-            <p class="text-white text-center flex items-center justify-center gap-4">This website created on
+            <p class="text-white text-center flex items-center justify-center gap-4">This Portfolio created on
                 <a href="https://vuejs.org/" target="_blank"><svg class="logo" viewBox="0 0 128 128" width="24" height="24"
                         data-v-e9cb7cd5="">
                         <path fill="#42b883" d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
