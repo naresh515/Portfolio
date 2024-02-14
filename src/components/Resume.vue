@@ -116,6 +116,20 @@
                             </path>
                         </svg>
                     </div>
+                    <div class="mb-7">
+                        <div class="flex justify-between py-1">
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Github</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">80%</span>
+                        </div>
+                        <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                            <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                            <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#4c0519" stroke-width="1" fill-opacity="0"
+                                style="stroke-dasharray: 80px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                            </path>
+                        </svg>
+                    </div>
                 </div>
                 <div class="grid-cols-6">
                     <div class="mb-7">
@@ -174,13 +188,27 @@
                             </path>
                         </svg>
                     </div>
+                    <div class="mb-7">
+                        <div class="flex justify-between py-1">
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Wordpress</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">50%</span>
+                        </div>
+                        <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                            <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                            <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#5b21b6" stroke-width="1" fill-opacity="0"
+                                style="stroke-dasharray: 50px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                            </path>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="py-[10px] text-sm mt-8 rounded-[0.75rem] bg-[#212425]">
             <p class="text-white text-center flex items-center justify-center gap-2">This Portfolio created on
-             <a href="https://vuejs.org/" target="_blank" class="hover:text-[#FA5252]">Vue.js</a> &
-             <a href="https://tailwindcss.com/" target="_blank" class="hover:text-[#FA5252]">tailwind</a>
+                <a href="https://vuejs.org/" target="_blank" class="hover:text-[#FA5252]">Vue.js</a> &
+                <a href="https://tailwindcss.com/" target="_blank" class="hover:text-[#FA5252]">tailwind</a>
             </p>
         </div>
     </div>
