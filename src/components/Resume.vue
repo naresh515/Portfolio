@@ -205,7 +205,7 @@
                 </div>
             </div>
         </div>
-        <div class="py-[10px] text-sm mt-8 rounded-[0.75rem] bg-[#212425]">
+        <div class="py-[10px] text-sm rounded-[0.75rem] bg-[#212425]">
             <p class="text-white text-center flex items-center justify-center gap-2">This Portfolio created on
                 <a href="https://vuejs.org/" target="_blank" class="hover:text-[#FA5252]">Vue.js</a> &
                 <a href="https://tailwindcss.com/" target="_blank" class="hover:text-[#FA5252]">tailwind</a>
