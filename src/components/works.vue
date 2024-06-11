@@ -48,6 +48,16 @@
                         of all kinds. Click on the img for experience the project live</p>
                 </div>
             </div>
+            <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
+                <div class="des last">
+                    <h3 class="text-white text-xl font-semibold mb-3">
+                        <a href="https://tmdb-git-main-naresh515s-projects.vercel.app/" target="_blank"><img
+                                src="../assets/Movies.png"></a>
+                    </h3>
+
+                    <p class="leading-8 text-[#A6A6A6]">A responsive website clone of TMDB Where user can search any movies and book the ticket</p>
+                </div>
+            </div>
         </div>
         <div class="py-[10px] text-sm mt-8 rounded-[0.75rem] bg-[#212425]">
             <p class="text-white text-center flex items-center justify-center gap-2">This Portfolio created on
