@@ -4,7 +4,7 @@
     <div class="lg:rounded-2xl bg-[#111111] pt-12 md:py-12 px-6 sm:px-5 md:px-10 lg:px-14 pb-5">
         <div class="heading">
             <h1 class="text-white text-[20px] lg:text-[40px] font-bold leading-[60px] relative">About Me</h1>
-            <p class="text-[#A6A6A6] text-[15px] leading-7 pt-[30px] pb-12">11 Months of experience in all facets of web
+            <p class="text-[#A6A6A6] text-[15px] leading-7 pt-[30px] pb-12">1+ years of experience in all facets of web
                 development, from research and analysis,
                 design,
                 development, testing, and implementation of code and applications with long term support and
