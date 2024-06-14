@@ -130,6 +130,21 @@
                             </path>
                         </svg>
                     </div>
+                    
+                    <div class="mb-7">
+                        <div class="flex justify-between py-1">
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Node JS</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">60%</span>
+                        </div>
+                        <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                            <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                            <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#006666" stroke-width="1" fill-opacity="0"
+                                style="stroke-dasharray: 60px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                            </path>
+                        </svg>
+                    </div>
                 </div>
                 <div class="grid-cols-6">
                     <div class="mb-7">
@@ -198,6 +213,20 @@
          L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
                             <path class="rc-progress-line-path" d="M 0.5,0.5
          L 99.5,0.5" stroke-linecap="round" stroke="#5b21b6" stroke-width="1" fill-opacity="0"
+                                style="stroke-dasharray: 50px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="mb-7">
+                        <div class="flex justify-between py-1">
+                            <span class="text-base text-gray-lite font-semibold text-[#A6A6A6]">Express JS</span>
+                            <span class="text-base font-semibold text-gray-lite pr-5 text-[#A6A6A6]">50%</span>
+                        </div>
+                        <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                            <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                            <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#660066" stroke-width="1" fill-opacity="0"
                                 style="stroke-dasharray: 50px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;">
                             </path>
                         </svg>
