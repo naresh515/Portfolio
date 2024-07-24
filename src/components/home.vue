@@ -30,30 +30,6 @@
             </div>
             <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
                 <div>
-                    <img src="../assets/icon-2.svg" width="40" height="40"
-                        class="!w-10 !h-10 object-contain block !max-w-[40px]">
-                </div>
-                <div class="des">
-                    <h3 class="text-white text-xl font-semibold mb-[5px]">App Development</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Craft cutting-edge mobile applications with expert app
-                        development services. I transform ideas into functional and innovative applications tailored to
-                        your needs.</p>
-                </div>
-            </div>
-            <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
-                <div>
-                    <img src="../assets/icon-5.svg" width="40" height="40"
-                        class="!w-10 !h-10 object-contain block !max-w-[40px]">
-                </div>
-                <div class="des">
-                    <h3 class="text-white text-xl font-semibold mb-[5px]">Managment</h3>
-                    <p class="leading-8 text-[#A6A6A6]">Efficiently organize and oversee your projects with management
-                        solutions. I provide tools and strategies to streamline processes and ensure successful project
-                        delivery.</p>
-                </div>
-            </div>
-            <div class="flex gap-4 border-2 border-[#212425] rounded-[0.75rem] p-[1.5rem] bg-transparent">
-                <div>
                     <img src="../assets/icon-6.svg" width="40" height="40"
                         class="!w-10 !h-10 object-contain block !max-w-[40px]">
                 </div>
